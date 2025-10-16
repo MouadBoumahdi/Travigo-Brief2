@@ -146,9 +146,8 @@ section .p1,.p2,.clickbuttons {
 /* category */
 
 .container1{
-    border: 1px solid black;
     width: 80vw;
-    height: 300vh;
+    height: 240vh;
     margin: 70px auto;
 }
 
@@ -240,10 +239,7 @@ section .p1,.p2,.clickbuttons {
 }
 
 
-.destination{
-    margin: 80px 0;
 
-}
 
 .destination .titles{
     display: flex;
@@ -264,13 +260,12 @@ section .p1,.p2,.clickbuttons {
 
 .destination{
     width: 80vw;
-    height: 200vh;
     margin: 70px auto;
 }
 
 .destination .card{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
     gap: 17px;
     margin-top: 50px;
     margin-left: 85px;
@@ -496,7 +491,9 @@ footer ul li .description{
 
 
 .destination2{
-    margin-top: 100px;
+    margin:0px 90px;
+    position: relative;
+    top: -300px;
 }
 
 .destination2 .text p{
@@ -508,6 +505,103 @@ footer ul li .description{
 
 
 .destination2 .text h1{
-        font-family: "opens", sans-serif;
-    color: #14183e;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    font-family: "Lexend", sans-serif;
+
+}
+
+.steps{
+   display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.step1,.step2,.step3{
+    
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.steps div img{
+    width: 40px;
+    height: 40px;
+}
+
+.steps-details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 370px;
+}
+
+.steps-details h1{
+    color: #5E6282;
+    font-size: 14px;
+    font-family: "Lexend", sans-serif;
+}
+
+.steps-details p{
+    color: #5E6282;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+}
+
+.card2{
+    position: relative;
+    bottom: -200px;
+    right: -700px;
+}
+.card3{
+    position: relative;
+    bottom: -250px;
+    right: -380px;
+}
+
+
+
+.about1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.about1 h1{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+
+}
+.about1 p{
+    font-family: "Lexend", sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.about1 button{
+    width: 130px;
+    padding: 12px 0px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #f1a501;
+    color: white;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px 0px rgba(208, 102, 9, 0.2);
+
+}
+
+.about2{
+    display: flex;
+    margin: 20px auto;
+    border: solid;
+    width: 55vw;
+    gap: 20px;
+}
+.about2 .part2{
+    width: 400px;
 }
