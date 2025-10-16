@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+.home{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1{
+  font-family: "Lexend", sans-serif;
+  font-size: 50px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    z-index: 2;
+    
+}
+
+header ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-right: 95px;
+}
+
+header ul li a{
+    color: black;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+}
+
+.signup{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.backimg{
+    position: absolute;
+    top: -70px;
+    right: -30px;
+    height: 550px;
+}
+.frontimg{
+    position: absolute;
+    right: 130px;
+    height: 550px;
+}
+
+select{
+    background-color: transparent;
+    padding: 5px 0px;
+    border: none;
+    font-size: 12px;
+    font-family: "Lexend", sans-serif;
+}
+
+
+
+.container{
+    margin: 80px 0px;
+    position: relative;
+}
+
+
+
+section .h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #DF6951;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section .p1,.p2,.clickbuttons {
+    margin-top: 20px;
+    
+}
+
+.p1{
+      line-height: 65px;
+      font-family: "Volkhov", serif;
+      font-size: 70px;
+      font-weight: bold;
+      color:#181e4b;
+}
+
+.redligne{
+    position: absolute;
+    top: 95px;
+    left: 190px;
+    width: 330px;
+    z-index: -1;
+}
+
+.p2{
+    font-family: "Lexend", sans-serif;
+    color: #5E6282;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+
+.clickbuttons .firstbtn{
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px 20px;
+    border: none;
+    background-color: #f1a501;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.clickbuttons .secbtn{
+    border: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: #df6951;
+    color: white;
+    font-family: "Lexend", sans-serif;
+}
+
+
+.clickbuttons span{
+    margin-left: 12px;
+    color: #686d77;
+    font-size: 16px;
+}
+
+
+/* category */
+
+.container1{
+    border: 1px solid black;
+    width: 80vw;
+    height: 300vh;
+    margin: 70px auto;
+}
+
+.categorie{
+    margin: 150px 0;
+    position: relative;
+}
+
+.categorie .titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.categorie .titles p{
+    font-size: 13px;
+     font-family: "Lexend", sans-serif;
+     color: #5e6282;
+}
+
+.categorie .titles h1{
+    color: #14183e;
+    font-size: 40px;
+}
+
+
+.categorie .card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 17px;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.categorie .card div{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 40px 25px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.categorie .card div img{
+    width: 65px;
+}
+
+
+.categorie .card div span{
+    font-family: "Lexend", sans-serif;
+    color: #14183e;
+    font-size: 15px;
+}
+
+.categorie .card div p{
+    font-family: "Lexend", sans-serif;
+    color: #5e6282;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.categorie .plusimage{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    right: 10px;
+    top: -30px;
+}
+
+/* .categorie .shadow{
+    position: absolute;
+    left: -200px;
+    top: 30px;
+    background-color: #e8009a;
+    border-radius: 50%;
+    filter: blur(120px);
+    width: 200px;
+    height: 200px;
+} */
+
+.categorie .card div:hover{
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.destination{
+    margin: 80px 0;
+
+}
+
+.destination .titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.destination .titles p{
+    font-size: 13px;
+     font-family: "Lexend", sans-serif;
+     color: #5e6282;
+}
+
+.destination .titles h1{
+    color: #14183e;
+    font-size: 40px;
+}
+
+.destination{
+    width: 80vw;
+    height: 200vh;
+    margin: 70px auto;
+}
+
+.destination .card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 17px;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+
+.destination .card div{
+    position: relative;
+    border-radius: 24px;
+    width: 18vw;
+    height: 55.8vh;  
+    margin-top: 40px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);  
+}
+
+.destination .card div .image{
+    width: 18vw;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+.destination .card div .detail{
+    position: absolute;
+    bottom: 0.5px;
+    background-color: white;
+    width: 18vw;
+    height: 90px;
+    border-radius: 0px 20px 20px 20px;
+    padding: 10px 20px;
+    
+
+}
+
+.destination .card div .detail p{
+    position: relative;
+    top: 10px;
+    font-family: "Lexend", sans-serif;
+    color: #5E6282;
+    display: inline;
+}
+.destination .card div .detail .para1{
+      margin-right:100px;
+}
+
+
+.destination .card div .detail span{
+      font-family: "Lexend", sans-serif;
+      color: #5E6282;
+      display: block;
+      font-size: 14px;
+      margin-top: 30px;
+            
+
+
+}
+
+span #i{
+    color: black;
+    margin-right: 10px;
+    margin-left:2px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list1{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   
+}
+
+footer .list2, .list3, .list4{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer ul li .title{
+    font-family: "Lexend", sans-serif;
+    color: #181e4b;
+    font-size: 44px;
+}
+footer ul li .description1{
+    font-family: "Lexend", sans-serif;
+    color: #5e6282;
+    font-size: 13px;
+}
+footer ul li .description{
+    font-family: "Lexend", sans-serif;
+    color: #5e6282;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.list2,.list3, .list4, .list5{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 22px;
+}
+
+
+
+
+.title1{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.list5{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list5 i{
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);  
+}
+
+.list5 #facebook{
+    padding: 10px 13.5px;
+}
+.list5 #twitter{
+    padding: 10.5px;
+}
+.list5 #instagram{
+    padding: 10.5px 11px;
+    background-color: #e081a0;
+}
+.list5 p{
+    font-family: "Lexend", sans-serif;
+    font-size: 13px;
+    color: #5E6282;
+}
+
+.images{
+    display: flex;
+    gap: 10px;
+}
+
+.images .playstore,.appstore{
+    background-color: black;
+    border-radius: 50px;
+    width: 110px;
+    height: 35px;
+    position: relative;
+}
+.playstore span,h4{
+    color: white;
+    font-family: "Lexend", sans-serif;   
+    
+}
+.playstore h4{
+    font-size: 7px;
+    position: absolute;
+    top: 7px; 
+    left: 40px;
+}
+
+.playstore span{
+    font-size: 10px;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+
+
+.playstore img{
+     width: 20px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+
+.appstore span,h4{
+    color: white;
+    font-family: "Lexend", sans-serif;   
+    
+}
+.appstore h4{
+    font-size: 7px;
+    position: absolute;
+    top: 7px; 
+    left: 40px;
+}
+
+.appstore span{
+    font-size: 10px;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+
+
+.appstore img{
+    width: 20px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+
+.end{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 13px;
+    font-family: "Lexend", sans-serif;
+    color: #5E6282;
+
+}
+
+
+
+.destination2{
+    margin-top: 100px;
+}
+
+.destination2 .text p{
+    color: #5E6282;
+    font-family: "Lexend", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.destination2 .text h1{
+        font-family: "opens", sans-serif;
+    color: #14183e;
+}
