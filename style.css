@@ -55,6 +55,7 @@ header ul li a{
     top: -70px;
     right: -30px;
     height: 550px;
+    z-index: -1;
 }
 .frontimg{
     position: absolute;
