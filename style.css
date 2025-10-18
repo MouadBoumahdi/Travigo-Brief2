@@ -223,6 +223,7 @@ section .p1,.p2,.clickbuttons {
     height: 120px;
     right: 10px;
     top: -30px;
+    -webkit-user-drag: none;
 }
 
 /* .categorie .shadow{
